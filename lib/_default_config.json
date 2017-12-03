@@ -1,0 +1,20 @@
+{
+  "directory": {
+    "src": "src",
+    "viewDist": "dist",
+    "resourceDist": "dist",
+    "view": "views",
+    "resource": "resources"
+  },
+  "build": {
+    "publicPath": "/",
+    "commonChunkName": "vendors",
+    "minCommonChunks": 2,
+    "provides": {}
+  },
+  "dev": {
+    "port": 8090,
+    "autoOpenBrowser": true,
+    "autoOpenRoute": "/"
+  }
+}
