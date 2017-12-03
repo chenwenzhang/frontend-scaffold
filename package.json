@@ -1,6 +1,6 @@
 {
   "name": "frontend-scaffold",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "frontend scaffold",
   "scripts": {
     "test": "node test/index.js"
