@@ -1,0 +1,7 @@
+{
+  "engine": "freemarker",
+  "ext": "ftl",
+  "data": [
+    "./data.json"
+  ]
+}

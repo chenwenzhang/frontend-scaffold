@@ -1,0 +1,18 @@
+{
+  "title": "freemarker模板引擎",
+  "username": "chenwenzhang",
+  "list": [
+    {
+      "id": 1,
+      "title": "饮料"
+    },
+    {
+      "id": 2,
+      "title": "零食"
+    },
+    {
+      "id": 3,
+      "title": "家居"
+    }
+  ]
+}

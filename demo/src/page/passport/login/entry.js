@@ -1,3 +1,3 @@
 require("./style.css");
 
-alert(123);
+console.log("passport login");
