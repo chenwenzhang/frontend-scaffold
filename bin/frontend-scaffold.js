@@ -14,8 +14,8 @@ if (!fs.existsSync(file)) {
 
 const config = require(file);
 const scaffold = require("../lib/frontend-scaffold");
-scaffold.setRoot(root);
 scaffold.config(config);
+scaffold.setRoot(root);
 
 const yargs = require("yargs");
 const argv = yargs
@@ -53,7 +53,12 @@ const argv = yargs
         command: "start",
         describe: "start a development server",
         builder: {},
-        handler: () => scaffold.start()
+        handler: () => {
+            scaffold.start(() => {
+                console.log("start exit");
+                process.exit(0);
+            });
+        }
     })
     .help("h")
     .alias("h", "help")
