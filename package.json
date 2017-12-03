@@ -9,6 +9,13 @@
     "name": "chenwenzhang",
     "email": "381266902@qq.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenwenzhang/frontend-scaffold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenwenzhang/frontend-scaffold/issues"
+  },
   "license": "MIT",
   "main": "lib/frontend-scaffold.js",
   "bin": {
