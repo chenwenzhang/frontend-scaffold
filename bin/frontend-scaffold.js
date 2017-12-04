@@ -45,7 +45,7 @@ const argv = yargs
                 });
             } catch (e) {
                 console.error(e);
-                process.exit(0);
+                process.exit(1);
             }
         }
     })
@@ -54,10 +54,14 @@ const argv = yargs
         describe: "start a development server",
         builder: {},
         handler: () => {
-            scaffold.start(() => {
-                console.log("start exit");
-                process.exit(0);
-            });
+            try {
+                scaffold.start(() => {
+                    process.exit(0);
+                });
+            } catch (e) {
+                console.log(e);
+                process.exit(1);
+            }
         }
     })
     .help("h")
