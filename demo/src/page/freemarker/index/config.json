@@ -1,6 +1,7 @@
 {
   "engine": "freemarker",
   "ext": "ftl",
+  "route": "/freemarker",
   "data": [
     "./data.json"
   ]

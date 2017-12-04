@@ -1,0 +1,8 @@
+{
+  "engine": "twig",
+  "ext": "html.twig",
+  "route": "/twig",
+  "data": [
+    "./data.json"
+  ]
+}
