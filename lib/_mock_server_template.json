@@ -1,0 +1,6 @@
+{
+  "method": "post",
+  "route": "/homepage",
+  "type": "js",
+  "inject": true
+}
