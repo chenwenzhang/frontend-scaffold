@@ -10,7 +10,13 @@
     "publicPath": "/",
     "commonChunkName": "vendors",
     "minCommonChunks": 2,
-    "provides": {}
+    "provides": {},
+    "pageConfig": {
+      "engine": "html",
+      "ext": "html",
+      "route": "",
+      "data": []
+    }
   },
   "dev": {
     "port": 8090,
